@@ -52,7 +52,7 @@ while game_should_continue:
     b_follower_count = account_b["follower_count"]
 
     # Check if user is correct.
-    is_correct = check_answer(guess, a_follower_count, b_follower_count)
+    is_correct = check_answer(a_follower_count, b_follower_count)
 
     # Give user feedback on their guess.
     # score keeping.
